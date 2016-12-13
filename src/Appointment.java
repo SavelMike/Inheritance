@@ -6,33 +6,15 @@ import java.util.Scanner;
 public class Appointment {
 
     private String description;
-    private int day;
-    private int month;
-    private int year;
 
-    public Appointment(int y, int m, int d) {
+    public Appointment() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input description: ");
         description = sc.next();
-        year = y;
-        month = m;
-        day = d;
     }
 
-    public boolean occursOn(int year, int month, int day) {
+    public boolean occursOn() {
         return true;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public int getMonth() {
-        return month;
-    }
-
-    public int getDay() {
-        return day;
     }
 
     public String toString() {
