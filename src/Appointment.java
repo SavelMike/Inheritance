@@ -10,13 +10,10 @@ public class Appointment {
     private int month;
     private int year;
 
-    public Appointment(String dsrc, int y, int m, int d) {
+    public Appointment(int y, int m, int d) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input description: ");
-        dsrc = sc.next();
-        day = d;
-        month = m;
-        year = y;
+        String dsrc = sc.next();
     }
 
     public boolean occursOn(int year, int month, int day) {
