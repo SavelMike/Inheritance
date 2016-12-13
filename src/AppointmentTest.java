@@ -12,11 +12,11 @@ public class AppointmentTest {
             System.out.print("Choose options from 1-3:");
             int choice = sc.nextInt();
             if (choice == 1) {
-                addAppointment();
+                addAppointment(app);
                 continue;
             }
             if (choice == 2) {
-                listOfAppointments();
+                listOfAppointments(app);
                 continue;
             }
             if (choice == 3) {
@@ -40,8 +40,23 @@ public class AppointmentTest {
         }
     }
 
-    public static void addAppointment() {
-        System.out.println("not ready");
+    public static void addAppointment(ArrayList<Appointment> app) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input type of your appointment 1-2 (Daily, Monthly: ");
+        int choice = 0;
+        Appointment p = new Daily();
+        if (choice == 1) {
+            p = new Daily();
+        }
+        if (choice == 2) {
+            p = new Monthly();
+        }
+        if (choice == 3) {
+            p = new Onetime();
+        } else {
+            return;
+        }
+        app.add(p);
     }
 }
 
