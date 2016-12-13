@@ -16,12 +16,11 @@ public class AppointmentTest {
         int Year = sc.nextInt();
         int Month = sc.nextInt();
         int Day = sc.nextInt();
-        String output = "";
+        System.out.println("On " + Year + "." + Month + "." + Day + "  you have: ");
         for (int i = 0; i < arrayOfAppointments.length; i++) {
             if (arrayOfAppointments[i].occursOn(2018, 6, 9)) {
-                 output = arrayOfAppointments[i].toString();
+                System.out.println(arrayOfAppointments[i].toString());
             }
         }
-        System.out.println(output);
     }
 }

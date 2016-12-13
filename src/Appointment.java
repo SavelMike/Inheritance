@@ -30,4 +30,8 @@ public class Appointment {
     public int getDay() {
         return day;
     }
+
+    public String toString() {
+        return description;
+    }
 }
