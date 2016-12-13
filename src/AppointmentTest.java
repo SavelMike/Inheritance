@@ -24,20 +24,19 @@ public class AppointmentTest {
     }
 
 
-        public static void listOfAppointments() {
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Input date of the appointment: ");
-            int Year = sc.nextInt();
-            int Month = sc.nextInt();
-            int Day = sc.nextInt();
-            System.out.println("On " + Year + "." + Month + "." + Day + "  you have: ");
-            for (int i = 0; i < arrayOfAppointments.length; i++) {
-                if (arrayOfAppointments[i].occursOn(Year, Month, Day)) {
-                    System.out.println(arrayOfAppointments[i].toString());
-                }
+    public static void listOfAppointments() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Input date of the appointment(y/m/d): ");
+        int Year = sc.nextInt();
+        int Month = sc.nextInt();
+        int Day = sc.nextInt();
+        System.out.println("On " + Year + "." + Month + "." + Day + "  you have: ");
+        for (int i = 0; i < arrayOfAppointments.length; i++) {
+            if (arrayOfAppointments[i].occursOn(Year, Month, Day)) {
+                System.out.println(arrayOfAppointments[i].toString());
             }
         }
-
+    }
 }
 
 
