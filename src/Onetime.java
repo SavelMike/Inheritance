@@ -5,13 +5,17 @@ import java.util.Scanner;
  */
 public class Onetime extends Appointment{
 
+    private int Year;
+    private int Month;
+    private int Day;
+
     public Onetime() {
+        super();
         Scanner sc = new Scanner(System.in);
         System.out.println("Input date of appointment: ");
-        int y = sc.nextInt();
-        int m = sc.nextInt();
-        int d = sc.nextInt();
-        super(y, m, d);
+        Year = sc.nextInt();
+        Month = sc.nextInt();
+        Day = sc.nextInt();
     }
 
     public boolean OccursOn(int y, int m, int d) {
