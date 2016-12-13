@@ -3,8 +3,8 @@
  */
 public class Daily extends Appointment {
 
-    public Daily(String dscr) {
-        super(dscr, 0, 0, 0);
+    public Daily() {
+        super(0, 0, 0);
     }
 
     public boolean occursOn(int y, int m, int d) {
