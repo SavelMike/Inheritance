@@ -5,12 +5,10 @@ import java.util.Scanner;
  */
 public class AppointmentTest {
     public static void main(String[] args) {
-        while(true)
-
-        {
-            Scanner sc = new Scanner(System.in);
-            int choice = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        while (true) {
             System.out.print("Choose options from 1-3:");
+            int choice = sc.nextInt();
             if (choice == 1) {
                 addAppointment();
                 continue;
@@ -22,6 +20,8 @@ public class AppointmentTest {
             if (choice == 3) {
                 System.exit(0);
             }
+        }
+    }
 
 
         public static void listOfAppointments() {
