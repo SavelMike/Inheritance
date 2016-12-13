@@ -13,7 +13,10 @@ public class Appointment {
     public Appointment(int y, int m, int d) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input description: ");
-        String dsrc = sc.next();
+        description = sc.next();
+        year = y;
+        month = m;
+        day = d;
     }
 
     public boolean occursOn(int year, int month, int day) {
