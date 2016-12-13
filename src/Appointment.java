@@ -8,7 +8,7 @@ public class Appointment {
     private int month;
     private int year;
 
-    public Appointment(String dsrc, int d, int m, int y) {
+    public Appointment(String dsrc, int y, int m, int d) {
         description = dsrc;
         day = d;
         month = m;
@@ -16,6 +16,18 @@ public class Appointment {
     }
 
     public boolean occursOn(int year, int month, int day) {
+        return true;
+    }
 
+    public int getYear() {
+        return year;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public int getDay() {
+        return day;
     }
 }
