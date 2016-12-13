@@ -10,6 +10,4 @@ public class Monthly extends Appointment{
     public boolean occursOn(int y, int m, int d) {
         return super.getDay() == d;
     }
-
-
 }
