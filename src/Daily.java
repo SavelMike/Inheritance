@@ -4,7 +4,7 @@
 public class Daily extends Appointment {
 
     public Daily() {
-        super(0, 0, 0);
+        super();
     }
 
     public boolean occursOn(int y, int m, int d) {

@@ -13,7 +13,7 @@ public class Appointment {
         description = sc.next();
     }
 
-    public boolean occursOn() {
+    public boolean occursOn(int y, int m, int d) {
         return true;
     }
 
