@@ -34,4 +34,6 @@ public class Appointment {
     public String toString() {
         return description;
     }
+
+    public void add
 }
