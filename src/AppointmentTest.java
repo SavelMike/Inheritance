@@ -6,14 +6,13 @@ import java.util.Scanner;
  */
 public class AppointmentTest {
     public static void main(String[] args) {
-        ArrayList<Appointment> app = new ArrayList<>();
+        ArrayList<Appointment> app = new ArrayList<Appointment>();
         Scanner sc = new Scanner(System.in);
         while (true) {
             System.out.print("Choose options from 1-3:");
             int choice = sc.nextInt();
             if (choice == 1) {
                 addAppointment();
-                System.out.println("not ready");
                 continue;
             }
             if (choice == 2) {
@@ -34,11 +33,15 @@ public class AppointmentTest {
         int Month = sc.nextInt();
         int Day = sc.nextInt();
         System.out.println("On " + Year + "." + Month + "." + Day + "  you have: ");
-        for (int i = 0; i < app.size; i++) {
-            if (arrayOfAppointments[i].occursOn(Year, Month, Day)) {
-                System.out.println(arrayOfAppointments[i].toString());
+        for (int i = 0; i < app.size(); i++) {
+            if (app.get(i).occursOn(Year, Month, Day)) {
+                System.out.println(app.get(i).toString());
             }
         }
+    }
+
+    public static void addAppointment() {
+        System.out.println("not ready");
     }
 }
 
