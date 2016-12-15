@@ -10,7 +10,7 @@ public class Appointment {
     public Appointment() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input description: ");
-        description = sc.next();
+        description = sc.nextLine();
     }
 
     public boolean occursOn(int y, int m, int d) {

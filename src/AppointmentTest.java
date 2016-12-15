@@ -42,7 +42,7 @@ public class AppointmentTest {
 
     public static void addAppointment(ArrayList<Appointment> app) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Input type of your appointment 1-3 (Daily, Monthly, Onetime: ");
+        System.out.print("Input type of your appointment 1-3 (Daily, Monthly, Onetime): ");
         int choice = sc.nextInt();
         Appointment p;
         if (choice == 1) {
