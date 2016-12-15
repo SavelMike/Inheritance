@@ -5,10 +5,10 @@ import java.util.ArrayList;
  */
 public class VehicleAdministration {
 
-    private ArrayList<Vehicle> allVehicles = new ArrayList<Vehicle>();
+    private ArrayList<Vehicle> allVehicles;
 
     public VehicleAdministration () {
-
+        allVehicles = new ArrayList<Vehicle>();
     }
 
     public void addTrain() {
@@ -40,6 +40,6 @@ public class VehicleAdministration {
     }
 
     public ArrayList printPassengerTransportForMinAmountOfPeople() {
-        
+
     }
 }
