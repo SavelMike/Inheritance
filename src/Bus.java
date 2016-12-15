@@ -3,10 +3,13 @@
  */
 public class Bus extends PassengerTransport {
 
-    public Bus(int maxpass, String n, String lastcheck) {
+    private String nameOfBus;
 
+    public Bus(int maxpass, String n, String lastcheck) {
+        super(maxpass, lastcheck);
+        nameOfBus = n;
     }
 
-    private String nameOfBus;
+
 
 }
