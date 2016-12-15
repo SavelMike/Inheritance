@@ -19,7 +19,7 @@ public class VehicleAdministration {
 
     }
 
-    public void addBoat(int maxpass, String n, int seq, int num, boolean ref) {
+    public void addBoat(int maxpass, String n, int seq, int num, boolean ref, String lastcheck) {
 
     }
 
