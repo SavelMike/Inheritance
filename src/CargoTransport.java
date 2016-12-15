@@ -3,10 +3,11 @@
  */
 public class CargoTransport extends Vehicle {
 
-    public CargoTransport() {
-        
+    private double maxLoadCapacity;
+
+    public CargoTransport(double maxCapac) {
+        maxLoadCapacity = maxCapac;
     }
 
-    private double maxLoadCapacity;
 
 }

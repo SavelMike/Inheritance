@@ -5,4 +5,9 @@ public class Containership {
 
     private int numOfContainers;
 
+    public Containership(double maxCapac, int numCont) {
+        super(maxCapac);
+        numOfContainers = numCont;
+    }
+
 }
