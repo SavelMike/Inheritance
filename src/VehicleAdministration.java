@@ -11,15 +11,15 @@ public class VehicleAdministration {
         allVehicles = new ArrayList<Vehicle>();
     }
 
-    public void addTrain() {
+    public void addTrain(int maxpass, int numcars, int lenght, String lastcheck) {
 
     }
 
-    public void addBus() {
+    public void addBus(int maxpass, String n, String lastcheck) {
 
     }
 
-    public void addBoat() {
+    public void addBoat(int maxpass, String n, int seq, int num, boolean ref) {
 
     }
 
