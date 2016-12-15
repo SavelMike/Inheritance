@@ -6,14 +6,14 @@ public class Boat extends PassengerTransport {
     private String nameOfBoat;
     private int sequence;
     private int lifeJackets;
-    private boolean refrigirator;
+    private boolean refrigerator;
 
-    public Boat(int maxpass, String n, int seq, int num, boolean ref, String lastcheck) {
+    public Boat(int maxpass, String n, int seq, int numOfJackets, boolean ref, String lastcheck) {
         super(maxpass, lastcheck);
         nameOfBoat = n;
         sequence = seq;
-        lifeJackets = num;
-        refrigirator = ref;
+        lifeJackets = numOfJackets;
+        refrigerator = ref;
     }
 
 
