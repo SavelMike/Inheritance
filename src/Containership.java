@@ -1,7 +1,7 @@
 /**
  * Created by Михаил on 15.12.2016.
  */
-public class Containership {
+public class Containership extends CargoTransport {
 
     private int numOfContainers;
 
@@ -9,5 +9,4 @@ public class Containership {
         super(maxCapac);
         numOfContainers = numCont;
     }
-
 }

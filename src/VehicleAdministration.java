@@ -26,16 +26,18 @@ public class VehicleAdministration {
         allVehicles.add(bt);
     }
 
-    public void addTruck() {
-
+    public void addTruck(double maxCapac, double l, double w, double d, boolean det) {
+        Truck t = new Truck(maxCapac, l, w, d, det);
+        allVehicles.add(t);
     }
 
-    public void addContainership() {
-
+    public void addContainership(double maxCapac, int numCont) {
+        Containership c = new Containership(maxCapac, numCont);
+        allVehicles.add(c);
     }
 
     public ArrayList printAllVehicles() {
-
+        
     }
 
     public ArrayList printAllRidingVehicles() {
