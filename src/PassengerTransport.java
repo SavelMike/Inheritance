@@ -4,9 +4,9 @@
 public class PassengerTransport extends Vehicle{
 
     private int maxAmountOfPeople;
-    private int dateOfInspection;
+    private String dateOfInspection;
 
-    public PassengerTransport() {
+    public PassengerTransport () {
 
     }
 
