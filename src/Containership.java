@@ -11,6 +11,6 @@ public class Containership extends CargoTransport {
     }
 
     public String toString() {
-        return "Number of containers: " + numOfContainers;
+        return super.toString() + "Number of containers: " + numOfContainers;
     }
 }

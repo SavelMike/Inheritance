@@ -12,7 +12,7 @@ public class PassengerTransport extends Vehicle{
     }
 
     public String toString() {
-        return "max passengers: " + maxAmountOfPeople + "; last inspection: " + maxAmountOfPeople;
+        return "max passengers: " + maxAmountOfPeople + "; last inspection: " + dateOfInspection;
     }
 
 
