@@ -3,8 +3,14 @@
  */
 public class Vehicle {
 
-    public Vehicle() {
+    private boolean ridingVehicle;
 
+    public Vehicle(boolean rid) {
+        ridingVehicle = rid;
+    }
+
+    public boolean is_riding() {
+        return ridingVehicle;
     }
     
 }

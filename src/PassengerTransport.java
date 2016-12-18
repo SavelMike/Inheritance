@@ -6,7 +6,8 @@ public class PassengerTransport extends Vehicle{
     private int maxAmountOfPeople;
     private String dateOfInspection;
 
-    public PassengerTransport (int maxpass, String lastcheck) {
+    public PassengerTransport (int maxpass, String lastcheck, boolean ridingVehicle) {
+        super(ridingVehicle);
         maxAmountOfPeople = maxpass;
         dateOfInspection = lastcheck;
     }

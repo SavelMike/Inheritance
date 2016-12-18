@@ -6,8 +6,8 @@ public class Train extends PassengerTransport {
     private int numOfCars;
     private double totalLength;
 
-    public Train(int maxpass, int numcars, int lenght, String lastcheck) {
-        super(maxpass, lastcheck);
+    public Train(int maxpass, int numcars, int lenght, String lastcheck, boolean ridingVehicle) {
+        super(maxpass, lastcheck, ridingVehicle);
         numOfCars = numcars;
         totalLength = lenght;
 

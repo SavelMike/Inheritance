@@ -8,8 +8,8 @@ public class Boat extends PassengerTransport {
     private int lifeJackets;
     private boolean refrigerator;
 
-    public Boat(int maxpass, String n, int seq, int numOfJackets, boolean ref, String lastcheck) {
-        super(maxpass, lastcheck);
+    public Boat(int maxpass, String n, int seq, int numOfJackets, boolean ref, String lastcheck, boolean ridingVehicle) {
+        super(maxpass, lastcheck, false);
         nameOfBoat = n;
         sequence = seq;
         lifeJackets = numOfJackets;

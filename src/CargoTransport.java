@@ -5,7 +5,8 @@ public class CargoTransport extends Vehicle {
 
     private double maxLoadCapacity;
 
-    public CargoTransport(double maxCapac) {
+    public CargoTransport(double maxCapac, boolean ridingVehicle) {
+        super(ridingVehicle);
         maxLoadCapacity = maxCapac;
     }
 
