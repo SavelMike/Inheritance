@@ -36,15 +36,17 @@ public class VehicleAdministration {
         allVehicles.add(c);
     }
 
-    public ArrayList printAllVehicles() {
-        
+    public void printAllVehicles() {
+        for (int i = 0; i < allVehicles.size(); i++) {
+            System.out.println(allVehicles.get(i).toString());
+        }
     }
 
-    public ArrayList printAllRidingVehicles() {
+    public void printAllRidingVehicles() {
 
     }
 
-    public ArrayList printPassengerTransportForMinAmountOfPeople() {
+    public void printPassengerTransportForMinAmountOfPeople() {
 
     }
 }
