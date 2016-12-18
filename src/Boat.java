@@ -17,7 +17,7 @@ public class Boat extends PassengerTransport {
     }
 
     public String toString() {
-        return super.toString() + "Name of a boat: " + nameOfBoat + " ; Sequence: " + sequence + "; Number of life jackets: " + lifeJackets +
+        return super.toString() + "; Name of a boat: " + nameOfBoat + " ; Sequence: " + sequence + "; Number of life jackets: " + lifeJackets +
                 "; Refrigerator: " + refrigerator;
     }
 

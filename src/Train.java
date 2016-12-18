@@ -14,7 +14,7 @@ public class Train extends PassengerTransport {
     }
 
     public String toString() {
-        return super.toString() + "Number of cars: " + numOfCars + "; Total length: " + totalLength;
+        return super.toString() + "; Number of cars: " + numOfCars + "; Total length: " + totalLength;
     }
 
 

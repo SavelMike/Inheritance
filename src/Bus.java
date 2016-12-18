@@ -11,7 +11,7 @@ public class Bus extends PassengerTransport {
     }
 
     public String toString() {
-        return super.toString() + "Name of the bus: " + nameOfBus;
+        return super.toString() + "; Name of the bus: " + nameOfBus;
     }
 
 

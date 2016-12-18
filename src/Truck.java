@@ -17,7 +17,7 @@ public class Truck extends CargoTransport {
     }
 
     public String toString() {
-        return super.toString() + "Length: " + length + "; Weidth: " + weidth + "; Depth: " + depth + "; Detachable " + detachable;
+        return super.toString() + "; Length: " + length + "; Weidth: " + weidth + "; Depth: " + depth + "; Detachable " + detachable;
     }
 
 }
