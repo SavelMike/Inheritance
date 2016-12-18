@@ -5,8 +5,8 @@ public class Bus extends PassengerTransport {
 
     private String nameOfBus;
 
-    public Bus(int maxpass, String n, String lastcheck, boolean ridingVehicle) {
-        super(maxpass, lastcheck, ridingVehicle);
+    public Bus(int maxpass, String n, String lastcheck) {
+        super(maxpass, lastcheck, true);
         nameOfBus = n;
     }
 

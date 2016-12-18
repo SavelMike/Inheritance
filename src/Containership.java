@@ -5,7 +5,7 @@ public class Containership extends CargoTransport {
 
     private int numOfContainers;
 
-    public Containership(double maxCapac, int numCont, boolean ridingVehicle) {
+    public Containership(double maxCapac, int numCont) {
         super(maxCapac, false);
         numOfContainers = numCont;
     }

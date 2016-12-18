@@ -8,8 +8,8 @@ public class Truck extends CargoTransport {
     private double depth;
     private boolean detachable;
 
-    public Truck(double maxCapac, double l, double w, double d, boolean det, boolean ridingVehicle) {
-        super(maxCapac, ridingVehicle);
+    public Truck(double maxCapac, double l, double w, double d, boolean det) {
+        super(maxCapac, true);
         length = l;
         weidth = w;
         depth = d;
