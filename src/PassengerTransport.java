@@ -16,5 +16,9 @@ public class PassengerTransport extends Vehicle{
         return "max passengers: " + maxAmountOfPeople + "; last inspection: " + dateOfInspection;
     }
 
-
+    public int getMaximumOfPeople() {
+        return maxAmountOfPeople;
+    }
 }
+
+

@@ -12,5 +12,9 @@ public class Vehicle {
     public boolean is_riding() {
         return ridingVehicle;
     }
+
+    public int getMaximumOfPeople() {
+        return 0;
+    }
     
 }
