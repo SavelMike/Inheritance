@@ -11,5 +11,9 @@ public class PassengerTransport extends Vehicle{
         dateOfInspection = lastcheck;
     }
 
+    public String toString() {
+        return "max passengers: " + maxAmountOfPeople + "; last inspection: " + maxAmountOfPeople;
+    }
+
 
 }

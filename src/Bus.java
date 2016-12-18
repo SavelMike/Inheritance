@@ -10,6 +10,10 @@ public class Bus extends PassengerTransport {
         nameOfBus = n;
     }
 
+    public String toString() {
+        return "Name of the bus: " + nameOfBus;
+    }
+
 
 
 }

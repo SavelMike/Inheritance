@@ -16,5 +16,10 @@ public class Boat extends PassengerTransport {
         refrigerator = ref;
     }
 
+    public String toString() {
+        return "Name of a boat: " + nameOfBoat + " ; Sequence: " + sequence + "; Number of life jackets: " + lifeJackets +
+                "; Refrigerator: " + refrigerator;
+    }
+
 
 }

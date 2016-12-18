@@ -9,4 +9,8 @@ public class Containership extends CargoTransport {
         super(maxCapac);
         numOfContainers = numCont;
     }
+
+    public String toString() {
+        return "Number of containers: " + numOfContainers;
+    }
 }

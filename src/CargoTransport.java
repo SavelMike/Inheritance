@@ -9,5 +9,7 @@ public class CargoTransport extends Vehicle {
         maxLoadCapacity = maxCapac;
     }
 
-
+    public String toString() {
+        return "Maximum capacity: " + maxLoadCapacity;
+    }
 }
