@@ -52,7 +52,7 @@ public class VehicleAdministration {
 
     public void printPassengerTransportForMinAmountOfPeople(int numofpeop) {
         for (int i = 0; i < allVehicles.size(); i++) {
-            if (allVehicles.get(i) instanceof PassengerTransport) && (allVehicles.get(i).getMaximumOfPeople()>= numofpeop) {
+            if (allVehicles.get(i) instanceof PassengerTransport && (allVehicles.get(i).getMaximumOfPeople()>= numofpeop)) {
                 System.out.println(allVehicles.get(i));
             }
         }
