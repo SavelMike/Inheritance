@@ -43,6 +43,11 @@ public class VehicleAdministration {
     }
 
     public void printAllRidingVehicles() {
+        for (int i = 0; i < allVehicles.size(); i++) {
+            if (allVehicles.get(i).is_riding()) {
+                System.out.println(allVehicles.get(i).toString());
+            }
+        }
 
     }
 
